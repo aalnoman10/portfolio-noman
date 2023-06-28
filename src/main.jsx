@@ -7,12 +7,14 @@ import Layout from './layout';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />,
+    element: <Layout />
   }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className='max-w-screen-lg mx-auto'>
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>,
 )
