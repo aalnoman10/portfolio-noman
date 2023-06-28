@@ -4,7 +4,7 @@ import { BsInstagram } from 'react-icons/bs';
 
 const Footer = () => {
     return (
-        <div className='bg-slate-800 text-base-content'>
+        <div className='bg-slate-600 text-base-content'>
             <footer className="footer footer-center md:flex md:justify-between gap-3 p-4 space-x-0 max-w-screen-lg mx-auto">
                 <div className='flex-1 flex justify-center md:order-3'>
                     <a href="https://web.facebook.com/alnoman.mern/" target="_blank" rel="noreferrer" title='Linkedin'><ImFacebook2 size={24} className='hover:text-blue-600 hover:bg-white rounded' /></a>
