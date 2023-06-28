@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom";
-
 const NavBar = () => {
     return (
         <div className='bg-slate-900 text-base-content sticky z-50 top-0'>
             <div className="navbar max-w-screen-lg mx-auto h-[5vh]">
                 <div className="navbar-start">
-                    <Link to='/' className="btn btn-ghost normal-case text-xl">Noman</Link>
+                    <a href='/' className="btn btn-ghost normal-case text-xl">Noman</a>
                 </div>
                 <div className="navbar-end">
                     <label className="swap swap-rotate pl-2">

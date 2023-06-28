@@ -1,7 +1,8 @@
-import NavBar from "./Shared/NavBar";
-import Footer from "./Shared/Footer";
-import Banner from "./components/Banner";
-import About from "./components/About";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+import Banner from "./Banner";
+import About from "./About";
+import Skills from "./Skills";
 
 const Layout = () => {
     return (
@@ -9,6 +10,7 @@ const Layout = () => {
             <NavBar />
             <Banner />
             <About />
+            <Skills />
             <Footer />
         </div>
     );
