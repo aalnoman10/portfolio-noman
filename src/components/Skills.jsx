@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <div className='bg-slate-900 text-base-content'>
             <div className="max-w-screen-lg h-[91vh] mx-auto py-10 px-6">
-                <h3 className="text-3xl font-semibold text-center">Skills</h3>
+                <h3 className="text-3xl  text-center">Skills</h3>
                 <div className="grid place-items-center w-full h-full">
                     <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-5" title='I have 3 years+ experiece'>
                         <div className="outline-dashed outline-1 outline-slate-500 hover:outline rounded-sm p-3">
