@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Message from "./Message";
 
 const Layout = () => {
     return (
@@ -13,6 +14,7 @@ const Layout = () => {
             <About />
             <Skills />
             <Contact />
+            <Message />
             <Footer />
         </div>
     );

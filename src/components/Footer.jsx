@@ -5,7 +5,7 @@ import { BsInstagram } from 'react-icons/bs';
 const Footer = () => {
     return (
         <div className='bg-slate-600 text-base-content'>
-            <footer className="footer footer-center md:flex md:justify-between gap-3 p-4 space-x-0 max-w-screen-lg mx-auto">
+            <footer className="footer footer-center text-base md:flex md:justify-between gap-3 p-4 space-x-0 max-w-screen-lg mx-auto">
                 <div className='flex-1 flex justify-center md:order-3'>
                     <a href="https://web.facebook.com/alnoman.mern/" target="_blank" rel="noreferrer" title='Linkedin'><ImFacebook2 size={24} className='hover:text-blue-600 hover:bg-white rounded' /></a>
                     <a href="https://web.facebook.com/messages/t/100022125303925" target="_blank" rel="noreferrer" title='Linkedin'><FaFacebookMessenger size={24} className='hover:text-blue-500' /></a>
@@ -14,7 +14,8 @@ const Footer = () => {
                 </div>
                 <hr className='h-7 w-px bg-lime-50 hidden md:block md:order-2' />
                 <div className='flex-1 md:order-1'>
-                    <p>Copyright © 2023 by <i className="font-bold">Al Noman</i>. All rights reserved.</p>
+                    <p>Designed and Developed by <span className='text-primary'>Abdullah Al Noman</span></p>
+                    <p>Copyright © 2023, All Rights Reserved</p>
                 </div>
 
             </footer>

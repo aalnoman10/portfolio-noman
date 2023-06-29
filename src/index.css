@@ -13,18 +13,11 @@ h4 {
     font-family: 'Caprasimo', cursive;
 }
 
-.custom-shape-divider-top-1687966101 {
-    width: 100%;
-    overflow: hidden;
-}
-
-.custom-shape-divider-top-1687966101 svg {
-    position: relative;
-    display: block;
-    width: calc(300% + 1.3px);
-    height: 500px;
-}
-
-.custom-shape-divider-top-1687966101 .shape-fill {
-    fill: #FFFFFF;
+.st0 {
+    fill: none;
+    stroke: #dddddd;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
 }
