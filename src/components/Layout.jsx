@@ -5,6 +5,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Message from "./Message";
+import Projects from "./Projects";
 
 const Layout = () => {
     return (
@@ -13,6 +14,7 @@ const Layout = () => {
             <Banner />
             <About />
             <Skills />
+            <Projects />
             <Contact />
             <Message />
             <Footer />

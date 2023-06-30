@@ -21,3 +21,7 @@ h4 {
     stroke-linejoin: round;
     stroke-miterlimit: 10;
 }
+
+.custom-svg-container div:hover p{
+    color: aqua;
+}
