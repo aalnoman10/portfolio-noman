@@ -16,8 +16,8 @@ const Skills = () => {
             variants={{ once: false, amount: 1, }}
             transition={{ staggerChildren: 0.5 }}
         >
-            <div className="max-w-screen-lg md:h-[91vh] mx-auto py-10 px-6">
-                <h3 className="text-3xl text-center mb-8 md:mb-0">Skills</h3>
+            <div className="max-w-screen-lg llg:min-h-[91vh] mx-auto py-10 px-6">
+                <h3 className="text-3xl text-center mb-8">Skills</h3>
                 <div className="grid place-items-center w-full h-full">
                     <div className="grid grid-cols-2 md:grid-cols-3 place-items-center gap-5">
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3" title='I have 3 years+ experiece'
@@ -27,7 +27,7 @@ const Skills = () => {
                                 <AiOutlineHtml5 size={30} />
                                 <h4>HTML</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="90" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="90" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3" title='I have 3 years+ experiece'
                             variants={CardAnimation}
@@ -36,7 +36,7 @@ const Skills = () => {
                                 <TbBrandCss3 size={30} />
                                 <h4>CSS</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="80" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="80" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3"
                             variants={CardAnimation}
@@ -45,7 +45,7 @@ const Skills = () => {
                                 <RiBootstrapLine size={30} />
                                 <h4>Bootstrap</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="65" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="65" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3"
                             variants={CardAnimation}
@@ -54,7 +54,7 @@ const Skills = () => {
                                 <TbBrandTailwind size={30} />
                                 <h4>Tailwind CSS</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="75" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="75" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3" title='I have 3 years+ experiece'
                             variants={CardAnimation}
@@ -63,7 +63,7 @@ const Skills = () => {
                                 <TbBrandJavascript size={30} />
                                 <h4>JS</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="70" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="70" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3"
                             variants={CardAnimation}
@@ -72,7 +72,7 @@ const Skills = () => {
                                 <FaReact size={30} />
                                 <h4>REACT</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="80" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="80" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3"
                             variants={CardAnimation}
@@ -81,7 +81,7 @@ const Skills = () => {
                                 <TbBrandFirebase size={30} />
                                 <h4>Firebase</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="85" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="85" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3"
                             variants={CardAnimation}
@@ -90,7 +90,7 @@ const Skills = () => {
                                 <SiExpress size={30} />
                                 <h4>Express</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="90" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="90" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3"
                             variants={CardAnimation}
@@ -99,7 +99,7 @@ const Skills = () => {
                                 <FaNodeJs size={30} />
                                 <h4>Node js</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="45" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="45" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3"
                             variants={CardAnimation}
@@ -108,7 +108,7 @@ const Skills = () => {
                                 <TbBrandMongodb size={30} />
                                 <h4>Mongobd</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="57" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="57" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3" title='I have a years+ experiece'
                             variants={CardAnimation}
@@ -117,7 +117,7 @@ const Skills = () => {
                                 <BsGit size={30} />
                                 <h4>Git</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="55" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="55" max="100"></progress>
                         </motion.div>
                         <motion.div className="outline-dashed outline-1 outline-slate-500 transition hover:outline rounded-sm p-3" title='I have a years+ experiece'
                             variants={CardAnimation}
@@ -126,7 +126,7 @@ const Skills = () => {
                                 <FiGithub size={30} />
                                 <h4>GitHub</h4>
                             </div>
-                            <progress className="progress progress-primary w-48 md:w-72" value="70" max="100"></progress>
+                            <progress className="progress progress-primary w-40 sm:w-64 md:w-48 lg:w-72" value="70" max="100"></progress>
                         </motion.div>
                     </div>
                 </div>

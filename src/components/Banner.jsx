@@ -5,8 +5,8 @@ import { TypeAnimation } from 'react-type-animation';
 const Banner = () => {
     return (
         <div className='bg-slate-900 text-base-content'>
-            <div className="max-w-screen-lg mx-auto md:h-[91vh] py-10 px-6 pb-0 md:flex place-items-center">
-                <div className='flex-1 space-y-4 mb-8 md:mb-0'>
+            <div className="max-w-screen-lg mx-auto lg:min-h-[91vh] py-10 px-6 pb-0 md:flex place-items-center">
+                <div className='flex-1 space-y-4 mb-8 lg:mb-0'>
                     <p className='bg-primary bg-opacity-20 text-3xl p-2 inline-block'>Welcome! I&#39;m</p>
                     <h2 className="text-5xl ">Abdullah Al Noman</h2>
                     <p className='pb-4 text-3xl'>

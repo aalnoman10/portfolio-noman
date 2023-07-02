@@ -9,10 +9,10 @@ const Projects = () => {
             whileInView={"onscreen"}
             variants={{ once: false, amount: 0.5, }}
             transition={{ staggerChildren: 0.3 }}>
-            <div className="max-w-screen-lg md:h-[91vh] mx-auto py-10 px-6">
-                <h3 className="text-3xl text-center mb-8 md:mb-0">Latest Projects</h3>
+            <div className="max-w-screen-lg lg:min-h-[91vh] mx-auto py-10 px-6">
+                <h3 className="text-3xl text-center mb-8">Latest Projects</h3>
                 <div className="grid place-items-center h-full">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         {/* card 1 */}
                         <motion.div className="card bg-base-100 shadow-xl"
                             variants={CardAnimationProject}
