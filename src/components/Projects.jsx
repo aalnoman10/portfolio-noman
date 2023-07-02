@@ -1,14 +1,22 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion"
+import { CardAnimationProject } from "../utilities/Animation";
 
 const Projects = () => {
     return (
-        <div className='bg-slate-800 text-base-content'>
+        <motion.div  id='project' className='bg-slate-800 text-base-content'
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={{ once: false, amount: 0.5, }}
+            transition={{ staggerChildren: 0.3 }}>
             <div className="max-w-screen-lg md:h-[91vh] mx-auto py-10 px-6">
                 <h3 className="text-3xl text-center mb-8 md:mb-0">Latest Projects</h3>
                 <div className="grid place-items-center h-full">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         {/* card 1 */}
-                        <div className="card bg-base-100 shadow-xl">
+                        <motion.div className="card bg-base-100 shadow-xl"
+                            variants={CardAnimationProject}
+                        >
                             <iframe className="rounded-t-lg h-60" src="https://artcraft-school.web.app/"></iframe>
                             <div className="card-body p-3">
                                 <h2 className="card-title font-normal">ArtCraft-School <span className="text-base font-normal italic">- learning</span></h2>
@@ -49,9 +57,11 @@ const Projects = () => {
                                     </dialog>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
                         {/* card 2 */}
-                        <div className="card bg-base-100 shadow-xl">
+                        <motion.div className="card bg-base-100 shadow-xl"
+                            variants={CardAnimationProject}
+                        >
                             <iframe className="rounded-t-lg h-60" src="https://animal-toys-35bea.web.app/"></iframe>
                             <div className="card-body p-3">
                                 <h2 className="card-title font-normal">Animal Toys <span className="text-base font-normal italic">- e-commerce</span></h2>
@@ -91,9 +101,11 @@ const Projects = () => {
                                     </dialog>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
                         {/* card 3 */}
-                        <div className="card bg-base-100 shadow-xl">
+                        <motion.div className="card bg-base-100 shadow-xl"
+                            variants={CardAnimationProject}
+                        >
                             <iframe className="rounded-t-lg h-60" src="https://the-china-kitchen.web.app/"></iframe>
                             <div className="card-body p-3">
                                 <h2 className="card-title font-normal">The China Kitchen <span className="text-base font-normal italic">- restaurant</span></h2>
@@ -134,11 +146,11 @@ const Projects = () => {
                                     </dialog>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </div>
-        </div >
+        </motion.div >
     );
 };
 

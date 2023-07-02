@@ -1,4 +1,4 @@
-import NavBar from "./NavBar";
+import New from "./NavBar";
 import Footer from "./Footer";
 import Banner from "./Banner";
 import About from "./About";
@@ -10,7 +10,7 @@ import Projects from "./Projects";
 const Layout = () => {
     return (
         <div>
-            <NavBar />
+            <New />
             <Banner />
             <About />
             <Skills />

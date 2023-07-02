@@ -2,7 +2,7 @@ import img from '../assets/noman-1.png'
 
 const About = () => {
     return (
-        <div className='bg-slate-800 text-base-content'>
+        <div id='about' className='bg-slate-800 text-base-content'>
             <div className="max-w-screen-lg md:h-[91vh] mx-auto py-10 px-6">
                 <h3 className="text-3xl text-center p-4">About Me</h3>
                 <div className="md:flex place-items-center">
